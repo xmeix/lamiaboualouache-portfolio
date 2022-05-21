@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+@keyframes showTopText {
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(0, 50%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes showBottomText {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animated-title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  height: 90vmin;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 200px;
+  left: 8em;
+  top: 10em;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 20px;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid lightblue;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #767676;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+  display: flex;
+  align-items: center;
+}
+.animated-title > div.text-bottom div .item {
+  background-color: lightblue;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  padding: 0.5em;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  cursor: pointer;
+  text-align: center;
+
+  text-transform: lowercase;
+}
+.animated-title > div.text-bottom div .item:hover {
+  background-color: rgb(122, 200, 226);
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
+}

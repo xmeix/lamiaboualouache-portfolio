@@ -1,0 +1,37 @@
+.home {
+}
+
+.name {
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+  top: 2em;
+  left: 6em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cadre1 {
+  background-image: url(../../media/work1.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: absolute;
+  min-width: 300px;
+  /* background-color: #73afc4; */
+  bottom: 3em;
+  left: 3em;
+  top: 3em;
+}
+
+.cadre2 {
+  position: absolute;
+  height: 50vh;
+  width: 600px;
+  width: 300px;
+  border: solid 2px #73afc4;
+  background-color: white;
+  bottom: 7em;
+  left: 10em;
+}
+
+

@@ -1,0 +1,61 @@
+.about {
+  overflow: hidden;
+  
+}
+.banner {
+  display: flex;
+  background-image: url(../../media/banner5.jpg);
+  background-size: contain;
+
+  height: 100vh;
+}
+.part1 {
+  flex: 2;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.part2 {
+  flex: 1;
+}
+.sectionTitle {
+  letter-spacing: 2px;
+  font-size: 100px;
+  padding: 0.5em;
+  padding-bottom: 0;
+  color: rgb(214, 224, 70);
+  text-align: center;
+}
+.sectionSubTitle {
+  font-size: 20px;
+  padding: 2em;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+hr {
+  position: absolute;
+  bottom: 4em;
+  left: -3em;
+  transform: rotate(90deg);
+}
+hr::after {
+  content: "Scroll down";
+  color: rgb(214, 224, 70);
+  padding: 1em;
+}
+
+@media only screen and (max-width: 650px) {
+  .part1 {
+    flex: 1;
+  }
+  .part2 {
+    flex: 0;
+  }
+  .sectionTitle {
+    text-align: center;
+  }
+}

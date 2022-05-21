@@ -1,0 +1,52 @@
+.header {
+  position: absolute;
+  right: 0;
+  top: 3em;
+  background-color: transparent;
+  height: 50%;
+  width: 200px;
+  z-index: 30;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 1em;
+}
+
+.header ul li {
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 1em;
+  object-fit: contain;
+  margin: 0.5em;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+}
+.header ul li:hover {
+  background-color: lightblue;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (max-width: 650px) {
+  .header {
+    top: -1em;
+    left: 1em;
+  }
+  .header ul {
+    flex-direction: row;
+  }
+  .header ul li {
+    font-size: 11px;
+  }
+}
