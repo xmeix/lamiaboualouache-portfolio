@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lamiaboualouache-portfolio/static/css/main.88e61820.css",
-    "main.js": "/lamiaboualouache-portfolio/static/js/main.c5428708.js",
+    "main.js": "/lamiaboualouache-portfolio/static/js/main.5ce80fb6.js",
     "static/js/787.7e190474.chunk.js": "/lamiaboualouache-portfolio/static/js/787.7e190474.chunk.js",
     "static/media/banner5.jpg": "/lamiaboualouache-portfolio/static/media/banner5.e4da4670fd833d11b00e.jpg",
     "static/media/work1.jpg": "/lamiaboualouache-portfolio/static/media/work1.854f13fab79443d4e002.jpg",
     "index.html": "/lamiaboualouache-portfolio/index.html",
     "main.88e61820.css.map": "/lamiaboualouache-portfolio/static/css/main.88e61820.css.map",
-    "main.c5428708.js.map": "/lamiaboualouache-portfolio/static/js/main.c5428708.js.map",
+    "main.5ce80fb6.js.map": "/lamiaboualouache-portfolio/static/js/main.5ce80fb6.js.map",
     "787.7e190474.chunk.js.map": "/lamiaboualouache-portfolio/static/js/787.7e190474.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88e61820.css",
-    "static/js/main.c5428708.js"
+    "static/js/main.5ce80fb6.js"
   ]
 }
