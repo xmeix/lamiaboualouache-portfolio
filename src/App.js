@@ -8,8 +8,16 @@ function App() {
       <div className="app">
         <div className="content">
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/AboutMe" element={<About />} />
+            <Route
+              exact
+              path="/lamiaboualouache-portfolio"
+              element={<Home />}
+            />
+            <Route
+              exact
+              path="/lamiaboualouache-portfolio/AboutMe"
+              element={<About />}
+            />
 
             {/* <Route path="/Everything" element={}/> */}
           </Routes>
